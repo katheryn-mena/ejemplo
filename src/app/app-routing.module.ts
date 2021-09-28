@@ -20,7 +20,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/pagina2/pagina2.module').then( m => m.Pagina2PageModule)
   },
   {
-    path: 'pagina3',
+    path: 'pagina3/:valor',
     loadChildren: () => import('./pages/pagina3/pagina3.module').then( m => m.Pagina3PageModule)
   },
 ];
