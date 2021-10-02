@@ -26,7 +26,7 @@ export class Pagina2Page implements OnInit {
     }];
 
   actualizar(rut:String){
-    this.router.navigate(['/pagina3', rut]);
+    this.router.navigate(['/pagina3',rut]);
   }
 
   eliminar(rut:String){

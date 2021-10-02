@@ -14,6 +14,7 @@ export class Pagina3Page implements OnInit {
 
   ngOnInit() {
     var datitos = this.activatedRoute.snapshot.paramMap.get('valor');
+    alert(datitos);
     this.buscar(datitos);
   }
 
@@ -36,7 +37,7 @@ export class Pagina3Page implements OnInit {
         this.usuario.controls.v_rut.setValue(rut);
         this.usuario.controls.v_nombre.setValue(usuarios.nombre);
         this.usuario.controls.v_edad.setValue(usuarios.edad);
-      }
+      }  
     }  
   };
 }
