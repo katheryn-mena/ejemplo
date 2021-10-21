@@ -21,8 +21,6 @@
       <ion-label color="danger" *ngIf="usuario.controls.v_nombre.errors?.required && (usuario.touched || usuario.dirty)">*El nombre es obligatorio</ion-label>
       <ion-label color="danger" *ngIf="usuario.controls.v_nombre.errors?.minlength && (usuario.touched || usuario.dirty)">*El nombre debe tener largo mínimo de 3 digitos</ion-label>
 
-
-
       <ion-item>
         <ion-label position="floating">Edad</ion-label>
         <ion-input formControlName="v_edad"></ion-input>
