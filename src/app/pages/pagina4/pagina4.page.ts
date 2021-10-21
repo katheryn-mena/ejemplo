@@ -10,7 +10,7 @@ import { Base64ToGallery } from '@ionic-native/base64-to-gallery/ngx';
 export class Pagina4Page implements OnInit {
 
   qrData = "http://www.google.cl";
-  elementType: 'url' | 'img' | 'canvas';
+  elementType: 'url' | 'img' | 'canvas' = 'canvas';
 
   constructor(private barCodeScanner:BarcodeScanner, private base64ToGallery:Base64ToGallery) { }
 
